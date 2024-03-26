@@ -2,7 +2,7 @@
 
 We have open-sourced a large-scale, meticulously annotated crack segmentation dataset, which is aimed at the most common on-board  camera scenarios.
 
-This  dataset consists of **3,540 high-resolution images**  (**3840$\times$2160** pixels)  shot from several roads in Shandong Province, China, using a camera-equipped vehicle. The collected images are then meticulously annotated with pixel-level semantic masks by a team of professionals who meticulously annotated the locations and shapes of cracks on the images using the CVAT annotation tool.
+This  dataset consists of **3,540 high-resolution images**  (**3840×2160** pixels)  shot from several roads in Shandong Province, China, using a camera-equipped vehicle. The collected images are then meticulously annotated with pixel-level semantic masks by a team of professionals who meticulously annotated the locations and shapes of cracks on the images using the CVAT annotation tool.
 
  To note, the annotation process for each image underwent thorough inspection and verification to ensure the accuracy and consistency of the labels. Furthermore, we ensured that the dataset includes images captured under **different road types** (e.g., freeways, national and provincial highways, etc.) to enhance the model's generalization capability.
  
