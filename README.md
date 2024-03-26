@@ -5,16 +5,17 @@ We have open-sourced a large-scale, meticulously annotated crack segmentation da
 This  dataset consists of **3,540 high-resolution images**  (**3840$\times$2160** pixels)  shot from several roads in Shandong Province, China, using a camera-equipped vehicle. The collected images are then meticulously annotated with pixel-level semantic masks by a team of professionals who meticulously annotated the locations and shapes of cracks on the images using the CVAT annotation tool.
 
  To note, the annotation process for each image underwent thorough inspection and verification to ensure the accuracy and consistency of the labels. Furthermore, we ensured that the dataset includes images captured under **different road types** (e.g., freeways, national and provincial highways, etc.) to enhance the model's generalization capability.
-![crack distribution heatmaps](images\image1.png)
+ 
+![crack distribution heatmaps](./images/image1.png)
 
 The dataset encompasses a total of 3,540 images, with **70% (2,478 images) designated for training**, **10% (354 images) for validation**, and the remaining **20% (708 images) for testing**. The crack distribution heatmaps in the training, validation, and testing sets are depicted in Figure above. It can be observed that these cracks are mostly confined to the road surface under the on-board camera perspective.
 
-![image-20240326182448286](images\table1.png) 
+![Comparison of our dataset with existing datasets](./images/table1.png) 
 
 The comparison of our dataset with existing datasets can be seen in Table above and Figure below. It can be observed that our dataset (i.e., CrackSeg)  has significant advantages in both data scale and scene challenges. 
 
 
-![image-20240326181652592](images\image2.png)
+![Image comparison of our dataset with existing datasets](./images/image2.png)
 
 # 2. Dataset Download
 * trainset (5.05 GB): [BaiduYun](https://pan.baidu.com/s/1jxdur0_ebq4omdHq4Jtx3w) (Extraction code: 7w9p)
